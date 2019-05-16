@@ -1,8 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);h1 {
-  background: red;
-  color: white;
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 
 div.header {
   height: 80px;
@@ -44,12 +40,14 @@ div.header {
 
 .footer {
   background: #1B3C59;
+
+  .footer-container {
+    width: 75%;
+    height: 75%;
+  }
 }
 
-.footer-container {
-  width: 75%;
-  height: 75%;
-}
+
 
 .footer-left {
   width: calc(100% / 3);
@@ -58,4 +56,3 @@ div.header {
 .footer-right {
   width: calc(100% / 7);
 }
-

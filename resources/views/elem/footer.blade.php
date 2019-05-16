@@ -2,10 +2,10 @@
 <div class="footer">
     <div class="footer-container">
         <div class="footer-up">
-          <div class="footer-left">
+          <div class="footer-up-left">
             <img src="https://www.boolean.careers/images/common/logo.png">
         </div>
-          <div class="footer-right">
+          <div class="footer-up-right">
             <div class="footer-right-left">
                 <span><a href="">ciao@boolean.careers</a>/span>
                 <span><a href="#">02-40031288</a></span>
