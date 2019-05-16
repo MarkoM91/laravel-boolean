@@ -3,7 +3,7 @@
           <div class="header-left">
               <img src="https://www.boolean.careers/images/common/logo.png">
           </div>
-          <div class="header-right">
+          <div class="header-rigth">
               <div class="navbar">
                   <ul>
                       <li>Home</li>

@@ -4,8 +4,6 @@
 // Variables
 @import 'variables';
 
-
-
 div.header {
 
   height: 80px;
@@ -27,7 +25,7 @@ div.header {
     }
   }
 
-  .header-right{
+  .header-rigth{
 
     list-style: none;
     display: flex;
@@ -60,6 +58,27 @@ div.sviluppatore {
   }
 }
 
+div.nostri-studenti {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div.nostri-studenti-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
 div.footer {
 
   background: #1B3C59;
@@ -73,6 +92,10 @@ div.footer {
     align-items: center;
 
     .footer-up {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
       .footer-up-left {
 
@@ -88,6 +111,9 @@ div.footer {
       .footer-up-right {
 
         width: calc(100% / 7);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
         .footer-right-left {
 
@@ -105,6 +131,8 @@ div.footer {
 
     .footer-down {
 
+      display: flex;
+
       .footer-left {
 
 
@@ -118,7 +146,7 @@ div.footer {
       }
 
       .footer-right {
-        
+
       }
     }
   }

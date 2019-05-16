@@ -19,4 +19,16 @@
           </div>
       </div>
   </div>
+  <div class="nostri-studenti">
+      <div class="nostri-studenti-container">
+          <p>I nostri studenti sono stati assunti da:</p>
+          <div class="icon">
+              <img src="https://www.boolean.careers/images/partners/facile_it.png">
+              <img src="https://www.boolean.careers/images/partners/oneday.png">
+              <img src="https://www.boolean.careers/images/partners/cayenne.png">
+              <img src="https://www.boolean.careers/images/partners/softec.png">
+              <img src="https://www.boolean.careers/images/partners/fabbrica_digitale.png">
+          </div>
+      </div>
+  </div>
 </div>
