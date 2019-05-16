@@ -21,6 +21,4 @@ Route::get('ver1', function () {
 Route::get('ver2', function () {
     return view('ver2.home');
 });
-Route::get('ver3', function () {
-    return view('ver3.home');
-});
+Route::get('ver3', 'BoolController@getHome');
