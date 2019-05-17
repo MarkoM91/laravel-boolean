@@ -3116,7 +3116,9 @@ div.header .header-rigth #corso {
 }
 
 div.content div.sviluppatore {
+  list-style: none;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background: #1B3C59;
@@ -3157,7 +3159,9 @@ div.content div.master div.master-container div.master-left input {
 }
 
 div.content div.vera {
+  list-style: none;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background: #E8EBF1;
@@ -3173,9 +3177,11 @@ div.content div.vera div.vera-container {
 }
 
 div.content div.aula {
+  list-style: none;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 div.content div.aula div.aula-container {
@@ -3189,6 +3195,7 @@ div.content div.aula div.aula-container div.aula-left {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-right: 50px;
   color: #1B3C59;
 }
@@ -3212,15 +3219,18 @@ div.content div.aula div.aula-container div.aula-right img {
 
 div.footer {
   background: #1B3C59;
+  list-style: none;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  margin: auto;
 }
 
 div.footer .footer-container {
   width: 85%;
   height: 85%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -3229,11 +3239,15 @@ div.footer .footer-container .footer-left {
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 div.footer .footer-container .footer-left span {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
   text-decoration: none;
   margin: 10px;
