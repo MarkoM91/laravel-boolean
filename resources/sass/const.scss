@@ -34,7 +34,6 @@ $none : none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 @mixin flexSpaceAround {
@@ -42,7 +41,6 @@ $none : none;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 @mixin flexStart {
@@ -50,5 +48,4 @@ $none : none;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
 }

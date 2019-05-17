@@ -3079,6 +3079,7 @@ div.header .header-left img {
 div.header .header-rigth {
   margin-right: 20px;
   text-transform: uppercase;
+  position: relative;
 }
 
 div.header .header-rigth .navbar ul {
@@ -3099,30 +3100,28 @@ div.header .header-rigth .navbar ul li:hover {
   border-bottom: 1px solid #61CE4E;
 }
 
-div.header .header-rigth #orange {
+div.header .header-rigth .navbar ul #orange {
   padding: 20px;
   background: #F47637;
   color: white;
 }
 
-div.header .header-rigth #orange:hover {
+div.header .header-rigth .navbar ul #orange:hover {
   color: #1B3C59;
   border: none;
 }
 
-div.header .header-rigth #corso {
+div.header .header-rigth .navbar ul #corso {
   margin-right: 0;
   padding: 20px 0;
   width: 120px;
 }
 
-div.header .header-rigth .hamburger-menù {
+div.header .hamburger-menù {
   position: absolute;
-  top: 25px;
-  right: 30px;
+  top: 30px;
+  right: 50px;
   font-size: 30px;
-  color: #1B3C59;
-  display: none;
 }
 
 div.content div.sviluppatore {
@@ -3141,7 +3140,6 @@ div.content div.sviluppatore .sviluppatore-container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 div.content div.master div.master-container {
@@ -3185,7 +3183,6 @@ div.content div.vera div.vera-container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 div.content div.aula {
@@ -3200,7 +3197,6 @@ div.content div.aula div.aula-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
   padding: 75px;
 }
 
@@ -3209,7 +3205,6 @@ div.content div.aula div.aula-container div.aula-left {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   padding-right: 50px;
   color: #1B3C59;
 }
@@ -3255,7 +3250,6 @@ div.footer .footer-container .footer-left {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 div.footer .footer-container .footer-left span {
@@ -3263,7 +3257,6 @@ div.footer .footer-container .footer-left span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   color: white;
   text-decoration: none;
   margin: 10px;
@@ -3278,7 +3271,6 @@ div.footer .footer-container .footer-right {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 div.footer .footer-container .footer-right span {

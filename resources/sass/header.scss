@@ -24,52 +24,53 @@ div.header {
 
       margin-right: $ventipx;
       text-transform: uppercase;
+      position: relative;
 
-    .navbar ul {
+      .navbar ul {
 
-      @include flexRow;
+          @include flexRow;
 
-      li {
+          li {
 
-        padding: $ventipx;
-        margin: 10px;
+            padding: $ventipx;
+            margin: 10px;
 
-          &:hover {
+              &:hover {
 
-          color: $color2;
-          border-bottom: 1px solid $color3;
+              color: $color2;
+              border-bottom: 1px solid $color3;
+            }
+          }
+
+          #orange {
+
+            padding: $ventipx;
+            background: $color2;
+            color: $color5;
+
+            &:hover {
+
+              color: $color1;
+              border: $none;
+            }
+          }
+
+          #corso {
+
+            margin-right: 0;
+            padding: $ventipx  0;
+            width: 120px;
+          }
         }
-      }
-    }
 
-    #orange {
+  }
 
-      padding: $ventipx;
-      background: $color2;
-      color: $color5;
-
-      &:hover {
-
-        color: $color1;
-        border: $none;
-      }
-    }
-
-    #corso {
-
-      margin-right: 0;
-      padding: $ventipx  0;
-      width: 120px;
-    }
-
-    .hamburger-menù {
+  .hamburger-menù {
 
       position: absolute;
-      top: 25px;
-      right:30px;
+      top: 30px;
+      right:  50px;
       font-size: 30px;
-      color: $color1;
-      display: $none;
-    }
+
   }
 }
