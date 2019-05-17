@@ -3345,22 +3345,28 @@ div.footer .footer-container .footer-right span i {
     margin-bottom: 30px;
   }
 
+  div.content div.aula {
+    padding: 0;
+  }
+
   div.content div.aula div.aula-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 75px 75px 20px 75px;
   }
 
   div.content div.aula div.aula-container div.aula-left {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 50px;
   }
 
-  div.content div.aula div.aula-container div.aula-left h1 {
+  div.content div.aula div.aula-container div.aula-left h2 {
     padding-bottom: 50px;
   }
 
@@ -3368,12 +3374,8 @@ div.footer .footer-container .footer-right span i {
     padding-bottom: 50px;
   }
 
-  div.content div.aula div.aula-container div.aula-left input {
-    margin-bottom: 50px;
-  }
-
   div.content div.aula div.aula-container div.aula-right {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
 
   div.footer {
