@@ -39,7 +39,7 @@
                     <h2>Diventa sviluppatore web</h2>
                     <p>6 mesi di corso intensivo online in diretta per imparare da zero
                        il mestiere di web developer e trovare un nuovo lavoro nelle aziende top del settore</p>
-                    <input type="button" name="Scopri Il corso">
+                    <input type="button" name="Scopri Il corso" value="Scopri Il Corso">
                 </div>
                 <div class="master-right">
                     <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
@@ -52,7 +52,7 @@
           <div class="footer-container">
 
                 <div class="footer-left">
-                    
+
                       <span><a href="">ciao@boolean.careers</a></span>
                       <span><a href="#">02-40031288</a></span>
                       <span>+39 327-9578239</span>

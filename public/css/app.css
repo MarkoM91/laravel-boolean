@@ -3089,7 +3089,8 @@ div.header .header-rigth .navbar ul {
 }
 
 div.header .header-rigth .navbar ul li {
-  padding: 25px;
+  padding: 20px;
+  margin: 10px;
 }
 
 div.header .header-rigth .navbar ul li:hover {
@@ -3105,6 +3106,7 @@ div.header .header-rigth #orange {
 
 div.header .header-rigth #orange:hover {
   color: #1B3C59;
+  border: none;
 }
 
 div.content div.sviluppatore {

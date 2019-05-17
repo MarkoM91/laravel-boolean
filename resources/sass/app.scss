@@ -44,7 +44,8 @@ div.header {
       justify-content: center;
 
       li {
-        padding: 25px;
+        padding: 20px;
+        margin: 10px;
 
         &:hover {
           color: #F47637;
@@ -62,6 +63,7 @@ div.header {
 
       &:hover {
         color: #1B3C59;
+        border: none;
       }
     }
   }
