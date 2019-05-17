@@ -44,16 +44,17 @@ div.header {
       justify-content: center;
 
       li {
+
         padding: 20px;
         margin: 10px;
 
           &:hover {
+
           color: #F47637;
           border-bottom: 1px solid #61CE4E;
         }
       }
     }
-
 
     #orange {
 
@@ -62,6 +63,7 @@ div.header {
       color: white;
 
       &:hover {
+
         color: #1B3C59;
         border: none;
       }
@@ -93,14 +95,6 @@ div.content {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
-
-
-
-
-
-
-
     }
   }
 
@@ -116,10 +110,12 @@ div.content {
         padding: 0 20px 20px 20px;
 
         h2 {
+
           color: #61CE4E;
         }
 
         p {
+
           color: #1B3C59;
         }
 
@@ -204,6 +200,7 @@ div.content {
       div.aula-right {
 
         img {
+
           height: 500px;
           width:650px;
         }
@@ -235,6 +232,7 @@ div.footer {
         flex-direction: column;
 
          span {
+
           display: flex;
           flex-direction: column;
           color: white;
@@ -242,6 +240,7 @@ div.footer {
           margin: 10px;
 
           a {
+
             color: white;
             text-decoration: none;
           }
@@ -258,7 +257,6 @@ div.footer {
           margin: 10px;
           color: white;
         }
-
       }
-      }
+    }
   }
