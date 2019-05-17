@@ -3296,7 +3296,7 @@ div.footer .footer-container .footer-right span i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 
