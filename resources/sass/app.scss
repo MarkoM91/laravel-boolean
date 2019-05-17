@@ -14,7 +14,7 @@ div.header {
   justify-content: space-between;
   align-items: center;
   color:#1B3C59;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
 
   .header-left {
 
@@ -135,7 +135,7 @@ div.content {
     align-items: center;
     justify-content: center;
     background: #E8EBF1;
-    padding: 50px;
+    padding: 75px;
     color: #1B3C59;
 
     div.vera-container {
@@ -227,12 +227,17 @@ div.footer {
         display: flex;
         flex-direction: column;
 
-        span {
+         span {
           display: flex;
           flex-direction: column;
           color: white;
           text-decoration: none;
           margin: 10px;
+
+          a {
+            color: white;
+            text-decoration: none;
+          }
         }
       }
 

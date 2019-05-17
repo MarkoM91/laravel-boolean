@@ -3060,7 +3060,7 @@ div.header {
   justify-content: space-between;
   align-items: center;
   color: #1B3C59;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 div.header .header-left {
@@ -3154,7 +3154,7 @@ div.content div.vera {
   align-items: center;
   justify-content: center;
   background: #E8EBF1;
-  padding: 50px;
+  padding: 75px;
   color: #1B3C59;
 }
 
@@ -3230,6 +3230,11 @@ div.footer .footer-container .footer-left span {
   color: white;
   text-decoration: none;
   margin: 10px;
+}
+
+div.footer .footer-container .footer-left span a {
+  color: white;
+  text-decoration: none;
 }
 
 div.footer .footer-container .footer-right {
