@@ -3292,7 +3292,40 @@ div.footer .footer-container .footer-right span i {
     display: block;
   }
 
+  div.content div.sviluppatore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
   div.content div.master div.master-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.content div.master div.master-container div.master-left {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.content div.master div.master-container div.master-right {
+    margin-bottom: 30px;
+  }
+
+  div.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.footer div.footer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

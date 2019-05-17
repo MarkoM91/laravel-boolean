@@ -18,7 +18,15 @@
 
   div.content {
 
-  div.master {
+      div.sviluppatore {
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 50px;
+      }
+
+      div.master {
 
     div.master-container {
       display: flex;
@@ -26,8 +34,35 @@
       justify-content: center;
       align-items: center;
 
+      div.master-left {
 
+          margin-bottom: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      div.master-right {
+
+          margin-bottom: 30px;
+      }
     }
   }
-}
+  }
+
+  div.footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    div.footer-container {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
