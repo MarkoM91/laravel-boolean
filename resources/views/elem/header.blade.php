@@ -9,7 +9,7 @@
                       <li>Home</li>
                       <li>Corso</li>
                       <li>Metodo</li>
-                      <li>Dopo il Corso</li>
+                      <li id="corso">Dopo il Corso</li>
                       <li>Faq</li>
                       <li id="orange">Iscriviti</li>
                   </ul>

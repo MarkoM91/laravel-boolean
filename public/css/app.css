@@ -3109,6 +3109,12 @@ div.header .header-rigth #orange:hover {
   border: none;
 }
 
+div.header .header-rigth #corso {
+  margin-right: 0;
+  padding: 20px 0;
+  width: 120px;
+}
+
 div.content div.sviluppatore {
   display: flex;
   align-items: center;
@@ -3245,5 +3251,6 @@ div.footer .footer-container .footer-right {
 
 div.footer .footer-container .footer-right span {
   margin: 10px;
+  color: white;
 }
 
