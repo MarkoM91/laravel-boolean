@@ -1,10 +1,7 @@
 div.header {
 
   height: 80px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  @include flexHeader;
   color: $color1;
   padding-bottom: 30px;
 
@@ -52,7 +49,7 @@ div.header {
 
       padding: 20px;
       background: $color2;
-      color: white;
+      color: $color5;
 
       &:hover {
 

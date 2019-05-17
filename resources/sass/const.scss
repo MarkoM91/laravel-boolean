@@ -4,3 +4,11 @@ $color2 : #F47637;
 $color3 : #61CE4E;
 $color4 : #E8EBF1;
 $color5 : white;
+
+@mixin flexHeader {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
