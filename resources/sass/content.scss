@@ -6,7 +6,7 @@ div.content {
 
     background: $color1;
     color: $color5;
-    padding: 50px;
+    padding: $cinquantapx;
 
     .sviluppatore-container {
 
@@ -23,7 +23,7 @@ div.content {
 
       div.master-left {
 
-        padding: 0 20px 20px 20px;
+        padding: 0 $ventipx $ventipx $ventipx;
 
         h2 {
 
@@ -38,7 +38,7 @@ div.content {
         input {
 
           width: 150px;
-          height: 50px;
+          height: $cinquantapx;
           background: $color2;
           border: none;
           color: $color5;
@@ -51,7 +51,7 @@ div.content {
 
     @include flexRow;
     background: $color4;
-    padding: 75px;
+    padding: $settantacinquepx;
     color: $color1;
 
     div.vera-container {
@@ -67,25 +67,25 @@ div.content {
     div.aula-container {
 
       @include flexStart;
-      padding: 75px;
+      padding: $settantacinquepx;
 
       div.aula-left {
 
         @include flexColumn;
-        padding-right: 50px;
+        padding-right: $cinquantapx;
         color:$color1;
 
         h2,  {
 
-          margin-bottom: 30px;
+          margin-bottom: $trentapx;
         }
         p {
 
-          margin-bottom: 30px;
+          margin-bottom: $trentapx;
         }
         ul {
 
-          margin-bottom: 30px;
+          margin-bottom: $trentapx;
         }
       }
 

@@ -3,14 +3,14 @@ div.header {
   height: 80px;
   @include flexHeader;
   color: $color1;
-  padding-bottom: 30px;
+  padding-bottom: $trentapx;
 
   .header-left {
 
     width: 100%;
     height: 100%;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: $ventipx;
+    margin-left: $ventipx;
 
      img{
 
@@ -21,7 +21,7 @@ div.header {
 
   .header-rigth{
 
-      margin-right: 20px;
+      margin-right: $ventipx;
       text-transform: uppercase;
 
     .navbar ul {
@@ -30,7 +30,7 @@ div.header {
 
       li {
 
-        padding: 20px;
+        padding: $ventipx;
         margin: 10px;
 
           &:hover {
@@ -43,21 +43,21 @@ div.header {
 
     #orange {
 
-      padding: 20px;
+      padding: $ventipx;
       background: $color2;
       color: $color5;
 
       &:hover {
 
         color: $color1;
-        border: none;
+        border: $none;
       }
     }
 
     #corso {
 
       margin-right: 0;
-      padding: 20px  0;
+      padding: $ventipx  0;
       width: 120px;
     }
   }

@@ -5,6 +5,12 @@ $color3 : #61CE4E;
 $color4 : #E8EBF1;
 $color5 : white;
 
+$ventipx : 20px;
+$trentapx : 30px;
+$cinquantapx : 50px;
+$settantacinquepx : 75px;
+$none : none;
+
 @mixin flexHeader {
 
   display: flex;
@@ -38,7 +44,7 @@ $color5 : white;
 }
 
 @mixin flexStart {
-  
+
   display: flex;
   justify-content: center;
   align-items: flex-start;

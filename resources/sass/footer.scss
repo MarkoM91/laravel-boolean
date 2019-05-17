@@ -18,13 +18,13 @@ div.footer {
 
           @include flexColumn;
           color: $color5;
-          text-decoration: none;
+          text-decoration: $none;
           margin: 10px;
 
           a {
 
             color: $color5;
-            text-decoration: none;
+            text-decoration: $none;
           }
         }
       }
