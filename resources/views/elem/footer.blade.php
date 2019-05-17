@@ -3,7 +3,7 @@
     <div class="footer-container">
 
           <div class="footer-left">
-              <div class="footer-left-content">
+              
                 <span><a href="">ciao@boolean.careers</a></span>
                 <span><a href="#">02-40031288</a></span>
                 <span>+39 327-9578239</span>

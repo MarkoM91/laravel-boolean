@@ -3166,6 +3166,9 @@ div.nostri-studenti div.nostri-studenti-container .icon {
 
 div.footer {
   background: #1B3C59;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 div.footer .footer-container {
@@ -3182,9 +3185,21 @@ div.footer .footer-container .footer-left {
   flex-direction: column;
 }
 
+div.footer .footer-container .footer-left span {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
 div.footer .footer-container .footer-right {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+div.footer .footer-container .footer-right span {
+  margin: 10px;
 }
 

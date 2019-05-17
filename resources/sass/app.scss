@@ -151,6 +151,9 @@ div.nostri-studenti {
 div.footer {
 
   background: #1B3C59;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 
   .footer-container {
 
@@ -166,15 +169,25 @@ div.footer {
 
         display: flex;
         flex-direction: column;
+
+        span {
+          display: flex;
+          flex-direction: column;
+          color: white;
+          text-decoration: none;
+          margin: 10px;
+        }
       }
 
-
       .footer-right {
-
 
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        span {
+          margin: 10px;
+        }
 
       }
       }
