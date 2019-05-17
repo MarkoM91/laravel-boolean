@@ -16,6 +16,6 @@
               </div>
           </div>
           <div class="hamburger-menù">
-              <i class="fas fa-bars"></i>
+              <i class="fa fa-bars"></i>
           </div>
       </div>

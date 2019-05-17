@@ -3,7 +3,7 @@ div.content {
   div.sviluppatore {
 
     @include flexRow;
-  
+
     background: $color1;
     color: $color5;
     padding: $cinquantapx;
@@ -37,7 +37,7 @@ div.content {
 
         input {
 
-          width: 150px;
+          min-width: 150px;
           height: $cinquantapx;
           background: $color2;
           border: none;
@@ -93,8 +93,8 @@ div.content {
 
         img {
 
-          height: 500px;
-          width:650px;
+          min-height: 500px;
+          min-width:650px;
         }
       }
     }
