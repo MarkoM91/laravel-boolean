@@ -4,6 +4,8 @@
 // Variables
 @import 'variables';
 
+@import '~font-awesome/scss/font-awesome';
+
 div.header {
 
   height: 80px;
@@ -64,24 +66,66 @@ div.header {
   }
 }
 
-div.sviluppatore {
+div.content {
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: #1B3C59;
-  color: white;
-
-  .sviluppatore-container {
+  div.sviluppatore {
 
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 
+    background: #1B3C59;
+    color: white;
+
+    .sviluppatore-container {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+
+
+
+
+
+
+
+    }
+  }
+
+  div.master {
+
+    div.master-container {
+
+      display: flex;
+      padding: 100px;
+
+      div.master-left {
+
+        padding: 0 20px 20px 20px;
+
+        h2 {
+          color: #61CE4E;
+        }
+
+        p {
+          color: #1B3C59;
+        }
+
+        input {
+
+          width: 150px;
+          height: 50px;
+          background: #F47637;
+          border: none;
+          color: white;
+        }
+      }
+    }
   }
 }
+
 
 div.nostri-studenti {
 
@@ -116,52 +160,22 @@ div.footer {
     justify-content: space-between;
     align-items: center;
 
-    .footer-up {
+      .footer-left {
 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        height: 100%;
 
-      .footer-up-left {
-
-
-
+        display: flex;
+        flex-direction: column;
       }
 
-      width: calc(100% / 3);
 
-      .footer-up-right {
+      .footer-right {
 
-        width: calc(100% / 7);
+
         display: flex;
         justify-content: space-around;
         align-items: center;
 
-        .footer-right-left {
-
-        }
-
-        .footer-right-center {
-
-        }
-
-        .footer-right-right {
-
-        }
       }
-    }
-
-    .footer-down {
-
-      display: flex;
-
-      .footer-left {
-
       }
-
-      .footer-right {
-
-      }
-    }
   }
-}
