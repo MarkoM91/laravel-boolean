@@ -1,29 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
-
-div.header {
+@import url(https://fonts.googleapis.com/css?family=Nunito);div.header {
   height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #1B3C59;
+  margin-bottom: 50px;
 }
 
-.header-right img {
+div.header .header-left {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+div.header .header-left img {
   width: 200px;
   height: 60px;
 }
 
-.header-left ul {
-  list-style: none;
+div.header .header-rigth {
+  margin-right: 20px;
+  text-transform: uppercase;
 }
 
-#orange {
+div.header .header-rigth .navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.header .header-rigth .navbar ul li {
+  padding: 25px;
+}
+
+div.header .header-rigth .navbar ul li:hover {
+  color: #F47637;
+}
+
+div.header .header-rigth #orange {
   padding: 20px;
   background: #F47637;
+  color: white;
 }
 
-.sviluppatore {
+div.header .header-rigth #orange:hover {
+  color: #1B3C59;
+}
+
+div.sviluppatore {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,28 +59,58 @@ div.header {
   color: white;
 }
 
-.sviluppatore-container {
+div.sviluppatore .sviluppatore-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.footer {
-  background: #1B3C59;
-
-  .footer-container {
-    width: 75%;
-    height: 75%;
-  }
+div.nostri-studenti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+div.nostri-studenti div.nostri-studenti-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+div.nostri-studenti div.nostri-studenti-container .icon {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.footer-left {
+div.footer {
+  background: #1B3C59;
+}
+
+div.footer .footer-container {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.footer .footer-container .footer-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: calc(100% / 3);
 }
 
-.footer-right {
+div.footer .footer-container .footer-up .footer-up-right {
   width: calc(100% / 7);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+div.footer .footer-container .footer-down {
+  display: flex;
+}
+
