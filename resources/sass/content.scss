@@ -63,10 +63,12 @@ div.content {
   div.aula {
 
     @include flexRow;
-
+    padding: 100px;
+flex-wrap: wrap;
     div.aula-container {
 
       @include flexStart;
+      flex-wrap: wrap;
       padding: $settantacinquepx;
 
       div.aula-left {
@@ -93,8 +95,8 @@ div.content {
 
         img {
 
-          min-height: 500px;
-          min-width:650px;
+          height: 500px;
+          width:500px;
         }
       }
     }

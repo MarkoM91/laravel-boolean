@@ -3192,12 +3192,15 @@ div.content div.aula {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 100px;
+  flex-wrap: wrap;
 }
 
 div.content div.aula div.aula-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding: 75px;
 }
 
@@ -3223,8 +3226,8 @@ div.content div.aula div.aula-container div.aula-left ul {
 }
 
 div.content div.aula div.aula-container div.aula-right img {
-  min-height: 500px;
-  min-width: 650px;
+  height: 500px;
+  width: 500px;
 }
 
 div.footer {
@@ -3342,19 +3345,35 @@ div.footer .footer-container .footer-right span i {
     margin-bottom: 30px;
   }
 
-  div.footer {
+  div.content div.aula div.aula-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 50px;
+    align-items: center;
   }
 
-  div.footer div.footer-container {
+  div.content div.aula div.aula-container div.aula-left {
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+  }
+
+  div.content div.aula div.aula-container div.aula-left h1 {
+    padding-bottom: 50px;
+  }
+
+  div.content div.aula div.aula-container div.aula-left p {
+    padding-bottom: 50px;
+  }
+
+  div.content div.aula div.aula-container div.aula-left input {
+    margin-bottom: 50px;
+  }
+
+  div.content div.aula div.aula-container div.aula-right {
+    margin-bottom: 30px;
   }
 }
 

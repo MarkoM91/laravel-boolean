@@ -45,56 +45,80 @@
 
       div.master {
 
-    div.master-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+          div.master-container {
 
-      div.master-left {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
 
-          margin-bottom: 50px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
+              div.master-left {
 
-          h1 {
-            padding-bottom:  50px;
+              margin-bottom: 50px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+
+              h1 {
+                padding-bottom:  50px;
+              }
+
+              p {
+                padding-bottom: 50px;
+              }
+
+              input {
+
+                margin-bottom:  50px;
+
+              }
+              }
+              div.master-right {
+
+              margin-bottom: 30px;
+              }
           }
+        }
 
-          p {
-            padding-bottom: 50px;
+      div.aula {
+
+          div.aula-container {
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+
+              div.aula-left {
+
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h1 {
+
+                    padding-bottom:  50px;
+                  }
+
+                p {
+
+                  padding-bottom: 50px;
+                }
+
+                input {
+
+                margin-bottom:  50px;
+                }
+             }
+
+             div.aula-right {
+
+              margin-bottom: 30px;
+             }
           }
-
-          input {
-
-            margin-bottom:  50px;
-
-          }
-      }
-      div.master-right {
-
-          margin-bottom: 30px;
-      }
-    }
-  }
-  }
-
-  div.footer {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-
-    div.footer-container {
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+        }
   }
 }
