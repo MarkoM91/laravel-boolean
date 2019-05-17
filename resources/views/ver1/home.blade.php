@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <script type="{{ mix('js/app.js') }}"></script>
         <title>Laravel Header</title>
         </head>
     <body>
