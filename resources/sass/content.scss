@@ -64,11 +64,10 @@ div.content {
 
     @include flexRow;
     padding: 100px;
-flex-wrap: wrap;
+
     div.aula-container {
 
       @include flexStart;
-      flex-wrap: wrap;
       padding: $settantacinquepx;
 
       div.aula-left {

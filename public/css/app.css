@@ -3193,14 +3193,12 @@ div.content div.aula {
   align-items: center;
   justify-content: center;
   padding: 100px;
-  flex-wrap: wrap;
 }
 
 div.content div.aula div.aula-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
   padding: 75px;
 }
 
