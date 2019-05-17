@@ -3172,17 +3172,28 @@ div.content div.aula {
 div.content div.aula div.aula-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 50px;
+  align-items: flex-start;
+  padding: 75px;
 }
 
 div.content div.aula div.aula-container div.aula-left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   padding-right: 50px;
   color: #1B3C59;
+}
+
+div.content div.aula div.aula-container div.aula-left h2 {
+  margin-bottom: 30px;
+}
+
+div.content div.aula div.aula-container div.aula-left p {
+  margin-bottom: 30px;
+}
+
+div.content div.aula div.aula-container div.aula-left ul {
+  margin-bottom: 30px;
 }
 
 div.content div.aula div.aula-container div.aula-right img {

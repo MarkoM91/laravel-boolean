@@ -165,18 +165,31 @@ div.content {
 
       display: flex;
       justify-content: center;
-      align-items: center;
-      padding: 50px;
+      align-items: flex-start;
+      padding: 75px;
 
       div.aula-left {
 
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+
         align-items: center;
 
         padding-right: 50px;
         color:#1B3C59;
+
+        h2,  {
+
+          margin-bottom: 30px;
+        }
+        p {
+
+          margin-bottom: 30px;
+        }
+        ul {
+
+          margin-bottom: 30px;
+        }
       }
 
       div.aula-right {
