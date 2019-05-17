@@ -23,7 +23,24 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 50px;
+          padding:  50px;
+
+          div.sviluppatore-container {
+
+            h1 {
+              padding-bottom:  20px;
+            }
+
+            p {
+              padding-bottom: 20px;
+            }
+
+            input {
+
+              padding-bottom: 20px;
+            }
+
+          }
       }
 
       div.master {
@@ -41,6 +58,20 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
+
+          h1 {
+            padding-bottom:  50px;
+          }
+
+          p {
+            padding-bottom: 50px;
+          }
+
+          input {
+
+            margin-bottom:  50px;
+
+          }
       }
       div.master-right {
 
@@ -56,6 +87,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 
     div.footer-container {
 
