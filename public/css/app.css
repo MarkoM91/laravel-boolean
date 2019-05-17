@@ -3282,3 +3282,9 @@ div.footer .footer-container .footer-right span i {
   font-size: 30px;
 }
 
+@media all and (max-width: 768px) {
+  div.header div.header-rigth {
+    display: none;
+  }
+}
+
