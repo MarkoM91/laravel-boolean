@@ -3094,6 +3094,7 @@ div.header .header-rigth .navbar ul li {
 
 div.header .header-rigth .navbar ul li:hover {
   color: #F47637;
+  border-bottom: 1px solid #61CE4E;
 }
 
 div.header .header-rigth #orange {
@@ -3146,22 +3147,47 @@ div.content div.master div.master-container div.master-left input {
   color: white;
 }
 
-div.nostri-studenti {
+div.content div.vera {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background: #E8EBF1;
+  padding: 50px;
+  color: #1B3C59;
 }
 
-div.nostri-studenti div.nostri-studenti-container {
+div.content div.vera div.vera-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-div.nostri-studenti div.nostri-studenti-container .icon {
+div.content div.aula {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content div.aula div.aula-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+div.content div.aula div.aula-container div.aula-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 50px;
+  color: #1B3C59;
+}
+
+div.content div.aula div.aula-container div.aula-right img {
+  height: 500px;
+  width: 650px;
 }
 
 div.footer {
@@ -3172,8 +3198,8 @@ div.footer {
 }
 
 div.footer .footer-container {
-  width: 75%;
-  height: 75%;
+  width: 85%;
+  height: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;

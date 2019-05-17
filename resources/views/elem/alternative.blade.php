@@ -12,9 +12,14 @@
               <h2>L'aula Boolean</h2>
               <p>Le lezioni si svolgono online sulla piattaforma Boolean che permette agli alunni di seguire in diretta le lezioni del maestro, interagendo con domande e commenti,
                  condividendo gli schermi e lavorando contemporaneamente sugli stessi file</p>
+              <ul>
+                  <li>Segui da dove vuoi</li>
+                  <li>Interazione e cooperazione</li>
+                  <li>Assistenza dedicata</li>
+              </ul>
           </div>
-          <div class="master-right">
-
+          <div class="aula-right">
+              <img src="https://www.boolean.careers/images/live_coding/slides.gif" alt="">
           </div>
       </div>
   </div>
