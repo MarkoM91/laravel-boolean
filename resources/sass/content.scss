@@ -2,9 +2,7 @@ div.content {
 
   div.sviluppatore {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexRow;
 
     background: $color1;
     color: $color5;
@@ -12,10 +10,7 @@ div.content {
 
     .sviluppatore-container {
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      @include flexColumn;
     }
   }
 
@@ -54,43 +49,29 @@ div.content {
 
   div.vera {
 
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
+    @include flexRow;
     background: $color4;
     padding: 75px;
     color: $color1;
 
     div.vera-container {
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      @include flexColumn;
     }
   }
 
   div.aula {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexRow;
 
     div.aula-container {
 
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      @include flexStart;
       padding: 75px;
 
       div.aula-left {
 
-        display: flex;
-        flex-direction: column;
-
-        align-items: center;
-
+        @include flexColumn;
         padding-right: 50px;
         color:$color1;
 
