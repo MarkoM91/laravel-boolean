@@ -15,8 +15,8 @@ div.header {
 
      img{
 
-      min-width: 200px;
-      min-height: 60px;
+      width: 200px;
+      height: 60px;
     }
   }
 
@@ -71,5 +71,6 @@ div.header {
       top: 30px;
       right:  50px;
       font-size: 30px;
+      display: none;
   }
 }

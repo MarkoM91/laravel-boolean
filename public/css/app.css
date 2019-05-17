@@ -3072,8 +3072,8 @@ div.header .header-left {
 }
 
 div.header .header-left img {
-  min-width: 200px;
-  min-height: 60px;
+  width: 200px;
+  height: 60px;
 }
 
 div.header .header-rigth {
@@ -3122,6 +3122,7 @@ div.header .hamburger-menù {
   top: 30px;
   right: 50px;
   font-size: 30px;
+  display: none;
 }
 
 div.content div.sviluppatore {
@@ -3294,6 +3295,8 @@ div.footer .footer-container .footer-right span i {
   div.content div.master div.master-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 
