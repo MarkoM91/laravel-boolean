@@ -71,15 +71,14 @@ div.header {
 
     .hamburger-menù {
 
-            position: absolute;
-            top: 30px;
-            right:  50px;
-            font-size: 30px;
-            display: none;
+       i.fa-bars {
 
-            i.fa-bars {
               display: none;
+              position: absolute;
+              top: 30px;
+              right:  50px;
+              font-size: 30px;
             }
-        }
+    }
   }
 }

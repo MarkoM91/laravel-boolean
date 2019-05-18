@@ -3117,16 +3117,12 @@ div.header .header-rigth .navbar ul #corso {
   min-width: 120px;
 }
 
-div.header .header-rigth .hamburger-menù {
+div.header .header-rigth .hamburger-menù i.fa-bars {
+  display: none;
   position: absolute;
   top: 30px;
   right: 50px;
   font-size: 30px;
-  display: none;
-}
-
-div.header .header-rigth .hamburger-menù i.fa-bars {
-  display: none;
 }
 
 div.content div.sviluppatore {
