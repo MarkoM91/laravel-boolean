@@ -14,6 +14,147 @@
 
 @import 'footer';
 
-@import "mediaMax768";
+@media all and (max-width:768px) {
 
-@import "media768and1100";
+  div.header {
+
+    div.header-rigth {
+
+       display: none;
+    }
+
+    div.hamburger-menu {
+
+      i.fa-bars {
+
+        display: block;
+      }
+    }
+  }
+
+  div.content {
+
+      div.sviluppatore {
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding:  50px;
+
+          div.sviluppatore-container {
+
+              h1 {
+                padding-bottom:  20px;
+              }
+
+              p {
+                padding-bottom: 20px;
+              }
+
+              input {
+
+                padding-bottom: 20px;
+              }
+          }
+      }
+
+      div.master {
+
+          div.master-container {
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+
+              div.master-left {
+
+                  margin-bottom: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+
+                  h1 {
+                    padding-bottom:  50px;
+                  }
+
+                  p {
+                    padding-bottom: 50px;
+                  }
+
+                  input {
+
+                    margin-bottom:  50px;
+                  }
+              }
+              div.master-right {
+
+              margin-bottom: 30px;
+
+                  img {
+
+                    height: 200px;
+                    width: 400px;
+                  }
+              }
+          }
+        }
+
+      div.aula {
+
+          padding: 0;
+
+          div.aula-container {
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 75px 75px 20px 75px;
+
+              div.aula-left {
+
+                  padding-bottom: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  margin-left: 50px;
+
+                  h2 {
+
+                      padding-bottom:  50px;
+                    }
+
+                  p {
+
+                    padding-bottom: 50px;
+                  }
+             }
+
+             div.aula-right {
+
+                padding-bottom: 30px;
+             }
+          }
+        }
+  }
+
+  div.footer {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+
+      div.footer-container {
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+  }
+}

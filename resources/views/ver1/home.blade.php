@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <script type="{{ mix('js/app.js') }}"></script>
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <title>Laravel Header</title>
         </head>
@@ -24,6 +25,18 @@
                   </ul>
               </div>
 
+          </div>
+          <div class="hidden-header-rigth">
+              <div class="hidden-navbar">
+                  <ul>
+                      <li>Home</li>
+                      <li>Corso</li>
+                      <li>Metodo</li>
+                      <li id="corso">Dopo il Corso</li>
+                      <li>Faq</li>
+                      <li id="orange">Iscriviti</li>
+                  </ul>
+              </div>
           </div>
           <div class="hamburger-menù">
               <i class="fa fa-bars"></i>
