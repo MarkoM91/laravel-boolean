@@ -3117,7 +3117,7 @@ div.header .header-rigth .navbar ul #corso {
   min-width: 120px;
 }
 
-div.header .hamburger-menù {
+div.header .header-rigth .hamburger-menù {
   position: absolute;
   top: 30px;
   right: 50px;

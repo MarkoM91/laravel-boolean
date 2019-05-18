@@ -1,76 +1,74 @@
 div.header {
 
-  min-height: 80px;
-  @include flexHeader;
-  color: $color1;
-  padding-bottom: $trentapx;
-  position: relative;
+    min-height: 80px;
+    @include flexHeader;
+    color: $color1;
+    padding-bottom: $trentapx;
+    position: relative;
 
-  .header-left {
+    .header-left {
 
-    min-width: 100%;
-    min-height: 100%;
-    margin-top: $ventipx;
-    margin-left: $ventipx;
+        min-width: 100%;
+        min-height: 100%;
+        margin-top: $ventipx;
+        margin-left: $ventipx;
 
-     img{
+        img{
 
-      width: 200px;
-      height: 60px;
+            width: 200px;
+            height: 60px;
+        }
     }
-  }
 
-  .header-rigth{
+    .header-rigth{
 
-      margin-right: $ventipx;
-      text-transform: uppercase;
-      position: relative;
+        margin-right: $ventipx;
+        text-transform: uppercase;
+        position: relative;
 
-      .navbar ul {
+        .navbar ul {
 
-          @include flexRow;
+            @include flexRow;
 
-          li {
+            li {
 
-            padding: $ventipx;
-            margin: 10px;
+                padding: $ventipx;
+                margin: 10px;
+
+                &:hover {
+
+                    color: $color2;
+                    border-bottom: 1px solid $color3;
+                }
+            }
+
+            #orange {
+
+              padding: $ventipx;
+              background: $color2;
+              color: $color5;
 
               &:hover {
 
-              color: $color2;
-              border-bottom: 1px solid $color3;
-            }
-          }
-
-          #orange {
-
-            padding: $ventipx;
-            background: $color2;
-            color: $color5;
-
-            &:hover {
-
-              color: $color1;
-              border: $none;
-            }
-          }
-
-          #corso {
-
-            margin-right: 0;
-            padding: $ventipx  0;
-            min-width: 120px;
-          }
+                  color: $color1;
+                  border: $none;
+             }
         }
 
-  }
+        #corso {
 
-  .hamburger-menù {
+          margin-right: 0;
+          padding: $ventipx  0;
+          min-width: 120px;
+        }
+      }
 
-      position: absolute;
-      top: 30px;
-      right:  50px;
-      font-size: 30px;
-      display: none;
+    .hamburger-menù {
+
+            position: absolute;
+            top: 30px;
+            right:  50px;
+            font-size: 30px;
+            display: none;
+        }
   }
-}
