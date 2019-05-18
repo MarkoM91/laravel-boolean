@@ -35,24 +35,7 @@ div.header {
                 padding: $ventipx;
                 margin: 10px;
 
-                #orange {
 
-                  padding: $ventipx;
-                  background: $color2;
-                  color: $color5;
-
-                  &:hover {
-
-                      color: $color1;
-                      border: $none;
-                 }
-
-                #corso {
-
-                   margin-right: 0;
-                   padding: $ventipx  0;
-                   min-width: 120px;
-                }
 
                 &:hover {
 
@@ -61,7 +44,28 @@ div.header {
                 }
             }
 
+            #orange {
 
+              padding: $ventipx;
+              background: $color2;
+              color: $color5;
+
+              &:hover {
+
+                  color: $color1;
+                  border: $none;
+             }
+
+
+
+
+        }
+
+        #corso {
+
+           margin-right: 0;
+           padding: $ventipx  0;
+           min-width: 120px;
         }
     }
 
