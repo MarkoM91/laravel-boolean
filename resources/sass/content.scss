@@ -44,6 +44,15 @@ div.content {
           color: $color5;
         }
       }
+
+      div.master-right {
+
+        img {
+
+          min-width: 650px;
+          min-height: 390px;
+        }
+      }
     }
   }
 

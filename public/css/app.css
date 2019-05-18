@@ -3168,6 +3168,11 @@ div.content div.master div.master-container div.master-left input {
   color: white;
 }
 
+div.content div.master div.master-container div.master-right img {
+  min-width: 650px;
+  min-height: 390px;
+}
+
 div.content div.vera {
   list-style: none;
   display: flex;
@@ -3341,6 +3346,11 @@ div.footer .footer-container .footer-right span i {
 
   div.content div.master div.master-container div.master-right {
     margin-bottom: 30px;
+  }
+
+  div.content div.master div.master-container div.master-right img {
+    height: 200px;
+    width: 400px;
   }
 
   div.content div.aula {

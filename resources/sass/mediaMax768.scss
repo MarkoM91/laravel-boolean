@@ -3,7 +3,8 @@
   div.header {
 
     div.header-rigth {
-      display: none;
+
+       display: none;
     }
 
     div.hamburger-menu {
@@ -12,7 +13,6 @@
 
         display: block;
       }
-
     }
   }
 
@@ -27,19 +27,18 @@
 
           div.sviluppatore-container {
 
-            h1 {
-              padding-bottom:  20px;
-            }
+              h1 {
+                padding-bottom:  20px;
+              }
 
-            p {
-              padding-bottom: 20px;
-            }
+              p {
+                padding-bottom: 20px;
+              }
 
-            input {
+              input {
 
-              padding-bottom: 20px;
-            }
-
+                padding-bottom: 20px;
+              }
           }
       }
 
@@ -54,29 +53,34 @@
 
               div.master-left {
 
-              margin-bottom: 50px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
+                  margin-bottom: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
 
-              h1 {
-                padding-bottom:  50px;
-              }
+                  h1 {
+                    padding-bottom:  50px;
+                  }
 
-              p {
-                padding-bottom: 50px;
-              }
+                  p {
+                    padding-bottom: 50px;
+                  }
 
-              input {
+                  input {
 
-                margin-bottom:  50px;
-
-              }
+                    margin-bottom:  50px;
+                  }
               }
               div.master-right {
 
               margin-bottom: 30px;
+
+                  img {
+
+                    height: 200px;
+                    width: 400px;
+                  }
               }
           }
         }
@@ -84,6 +88,7 @@
       div.aula {
 
           padding: 0;
+
           div.aula-container {
 
               display: flex;
@@ -94,28 +99,27 @@
 
               div.aula-left {
 
-                padding-bottom: 50px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin-left: 50px;
-
-                h2 {
-
-                    padding-bottom:  50px;
-                  }
-
-                p {
-
                   padding-bottom: 50px;
-                }
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  margin-left: 50px;
 
+                  h2 {
+
+                      padding-bottom:  50px;
+                    }
+
+                  p {
+
+                    padding-bottom: 50px;
+                  }
              }
 
              div.aula-right {
 
-              padding-bottom: 30px;
+                padding-bottom: 30px;
              }
           }
         }
@@ -123,18 +127,18 @@
 
   div.footer {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-
-    div.footer-container {
-
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-    }
+      justify-content: center;
+      padding: 50px;
+
+      div.footer-container {
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
   }
 }
