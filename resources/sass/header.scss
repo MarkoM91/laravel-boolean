@@ -65,19 +65,19 @@ div.header {
     }
 
     .hidden-header-rigth {
-      display: none;
+      display: $none;
     }
 
     .hamburger-menù {
 
       i {
-        font-size: 30px;
-        display: none;
+        font-size: $trentapx;
+        display: $none;
       }
     }
 
     .active {
-      
+
       display: block;
     }
 }

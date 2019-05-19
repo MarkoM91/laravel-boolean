@@ -4,7 +4,7 @@
 
   div.header-rigth {
 
-    display: none;
+    display: $none;
     }
 
   div.hamburger-menù {
@@ -25,24 +25,22 @@
 
       div.sviluppatore {
 
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding:  50px;
+          @include flexRow;
+          padding:  $cinquantapx;
 
           div.sviluppatore-container {
 
               h1 {
-                padding-bottom:  20px;
+                padding-bottom:  $ventipx;
               }
 
               p {
-                padding-bottom: 20px;
+                padding-bottom: $ventipx;
               }
 
               input {
 
-                padding-bottom: 20px;
+                padding-bottom: $ventipx;
               }
           }
       }
@@ -51,35 +49,29 @@
 
           div.master-container {
 
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
+              @include flexColumn;
 
               div.master-left {
 
-                  margin-bottom: 50px;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  justify-content: center;
+                  margin-bottom: $cinquantapx;
+                  @include flexColumn;
 
                   h1 {
-                    padding-bottom:  50px;
+                    padding-bottom:  $cinquantapx;
                   }
 
                   p {
-                    padding-bottom: 50px;
+                    padding-bottom: $cinquantapx;
                   }
 
                   input {
 
-                    margin-bottom:  50px;
+                    margin-bottom:  $cinquantapx;
                   }
               }
               div.master-right {
 
-              margin-bottom: 30px;
+              margin-bottom: $trentapx;
 
                   img {
 
@@ -96,35 +88,29 @@
 
           div.aula-container {
 
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-              padding: 75px 75px 20px 75px;
+              @include flexColumn;
+              padding: 75px 75px $ventipx 75px;
 
               div.aula-left {
 
-                  padding-bottom: 50px;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  justify-content: center;
-                  margin-left: 50px;
+                  padding-bottom: $cinquantapx;
+                  @include flexColumn;
+                  margin-left: $cinquantapx;
 
                   h2 {
 
-                      padding-bottom:  50px;
+                      padding-bottom:  $cinquantapx;
                     }
 
                   p {
 
-                    padding-bottom: 50px;
+                    padding-bottom: $cinquantapx;
                   }
              }
 
              div.aula-right {
 
-                padding-bottom: 30px;
+                padding-bottom: $trentapx;
              }
           }
         }
@@ -132,18 +118,12 @@
 
   div.footer {
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 50px;
+      @include flexColumn;
+      padding: $cinquantapx;
 
       div.footer-container {
 
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+        @include flexColumn;
       }
   }
 }

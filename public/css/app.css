@@ -3314,9 +3314,11 @@ div.footer .footer-container .footer-right span i {
   }
 
   div.content div.sviluppatore {
+    list-style: none;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 50px;
   }
 
@@ -3335,8 +3337,9 @@ div.footer .footer-container .footer-right span i {
   div.content div.master div.master-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    list-style: none;
   }
 
   div.content div.master div.master-container div.master-left {
@@ -3345,6 +3348,7 @@ div.footer .footer-container .footer-right span i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    list-style: none;
   }
 
   div.content div.master div.master-container div.master-left h1 {
@@ -3375,8 +3379,9 @@ div.footer .footer-container .footer-right span i {
   div.content div.aula div.aula-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    list-style: none;
     padding: 75px 75px 20px 75px;
   }
 
@@ -3386,6 +3391,7 @@ div.footer .footer-container .footer-right span i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    list-style: none;
     margin-left: 50px;
   }
 
@@ -3406,14 +3412,16 @@ div.footer .footer-container .footer-right span i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    list-style: none;
     padding: 50px;
   }
 
   div.footer div.footer-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    list-style: none;
   }
 }
 

@@ -2,13 +2,13 @@
 
   div.header-rigth {
 
-    display: none;
+    display: $none;
     }
 
   div.hamburger-menù {
 
       i.fa-bars {
-        font-size: 30px;
+        font-size: $trentapx;
         display: block;
       }
     }
