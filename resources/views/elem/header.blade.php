@@ -15,6 +15,18 @@
                   </ul>
               </div>
           </div>
+          <div class="hidden-header-rigth">
+              <div class="hidden-navbar">
+                  <ul>
+                      <li>Home</li>
+                      <li>Corso</li>
+                      <li>Metodo</li>
+                      <li>Dopo il Corso</li>
+                      <li>Faq</li>
+                      <li>Iscriviti</li>
+                  </ul>
+              </div>
+          </div>
           <div class="hamburger-menù">
               <i class="fa fa-bars"></i>
           </div>

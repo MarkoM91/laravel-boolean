@@ -3117,6 +3117,10 @@ div.header .header-rigth .navbar ul #corso {
   width: 120px;
 }
 
+div.header .hidden-header-rigth {
+  display: none;
+}
+
 div.header .hamburger-menù i {
   font-size: 30px;
   display: none;
