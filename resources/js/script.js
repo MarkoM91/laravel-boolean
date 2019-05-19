@@ -1,8 +1,8 @@
 
 function hiddenNavShow() {
-console.log("ok");
-    var hidden_header_right = $(".hidden-header-rigth");
-    hidden_header_right.toggleClass("active");
+
+    var hidden_nav = $("div.hidden-header-rigth");
+    hidden_nav.toggleClass("active");
 }
 
 function resize() {
