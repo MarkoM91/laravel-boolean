@@ -15,10 +15,10 @@ function resize() {
 
 function init() {
 
-    var menu = $(".hamburger-menù");
-    menu.click(hiddenNavShow);
+   var menu = $(".hamburger-menù");
+   menu.click(hiddenNavShow);
 
-    $(window).resize(resize);
+   $(window).resize(resize);
 }
 
 $(document).ready(init);
