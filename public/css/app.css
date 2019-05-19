@@ -3126,6 +3126,10 @@ div.header .hamburger-menù i {
   display: none;
 }
 
+div.header .active {
+  display: block;
+}
+
 div.content div.sviluppatore {
   list-style: none;
   display: flex;
@@ -3302,6 +3306,10 @@ div.footer .footer-container .footer-right span i {
 
   div.header div.hamburger-menù i {
     font-size: 30px;
+    display: block;
+  }
+
+  div.header .active {
     display: block;
   }
 
