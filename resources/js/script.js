@@ -1,5 +1,4 @@
 
-
 function hiddenNavShow() {
 
     var hidden_header_right = $(".hidden-header-right");
