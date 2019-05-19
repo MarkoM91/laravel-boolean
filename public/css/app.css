@@ -3417,3 +3417,14 @@ div.footer .footer-container .footer-right span i {
   }
 }
 
+@media all and (min-width: 768px) and (max-width: 1100px) {
+  div.header-rigth {
+    display: none;
+  }
+
+  div.hamburger-menù i.fa-bars {
+    font-size: 30px;
+    display: block;
+  }
+}
+
