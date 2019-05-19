@@ -3064,25 +3064,25 @@ div.header {
   position: relative;
 }
 
-div.header .header-left {
+div.header div.header-left {
   width: 100%;
   height: 100%;
   margin-top: 20px;
   margin-left: 20px;
 }
 
-div.header .header-left img {
+div.header div.header-left img {
   width: 200px;
   height: 60px;
 }
 
-div.header .header-rigth {
+div.header div.header-rigth {
   margin-right: 20px;
   text-transform: uppercase;
   position: relative;
 }
 
-div.header .header-rigth .navbar ul {
+div.header div.header-rigth .navbar ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -3090,39 +3090,65 @@ div.header .header-rigth .navbar ul {
   justify-content: center;
 }
 
-div.header .header-rigth .navbar ul li {
+div.header div.header-rigth .navbar ul li {
   padding: 20px;
   margin: 10px;
 }
 
-div.header .header-rigth .navbar ul li:hover {
+div.header div.header-rigth .navbar ul li:hover {
   color: #F47637;
   border-bottom: 1px solid #61CE4E;
 }
 
-div.header .header-rigth .navbar ul #orange {
+div.header div.header-rigth .navbar ul #orange {
   padding: 20px;
   background: #F47637;
   color: white;
 }
 
-div.header .header-rigth .navbar ul #orange:hover {
+div.header div.header-rigth .navbar ul #orange:hover {
   color: #1B3C59;
   border: none;
 }
 
-div.header .header-rigth .navbar ul #corso {
+div.header div.header-rigth .navbar ul #corso {
   margin-right: 0;
   padding: 20px 0;
   min-width: 120px;
 }
 
-div.header .header-rigth .hamburger-menù i.fa-bars {
+div.header div.header-rigth div.hidden-header-rigth {
+  margin-right: 20px;
+  text-transform: uppercase;
+  position: relative;
+  display: none;
+}
+
+div.header div.header-rigth div.hidden-header-rigth div.hidden-navbar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  list-style: none;
+}
+
+div.header div.header-rigth div.hidden-header-rigth div.hidden-navbar ul li {
+  padding: 20px;
+  margin: 10px;
+  list-style: none;
+}
+
+div.header div.header-rigth .hamburger-menù i.fa-bars {
   display: none;
   position: absolute;
   top: 30px;
   right: 50px;
   font-size: 30px;
+}
+
+div.header div.header-rigth div.active {
+  display: block;
 }
 
 div.content div.sviluppatore {
@@ -3141,6 +3167,7 @@ div.content div.sviluppatore .sviluppatore-container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  list-style: none;
 }
 
 div.content div.master div.master-container {
@@ -3189,6 +3216,7 @@ div.content div.vera div.vera-container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  list-style: none;
 }
 
 div.content div.aula {
@@ -3212,6 +3240,7 @@ div.content div.aula div.aula-container div.aula-left {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  list-style: none;
   padding-right: 50px;
   color: #1B3C59;
 }
@@ -3257,6 +3286,7 @@ div.footer .footer-container .footer-left {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  list-style: none;
 }
 
 div.footer .footer-container .footer-left span {
@@ -3264,6 +3294,7 @@ div.footer .footer-container .footer-left span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  list-style: none;
   color: white;
   text-decoration: none;
   margin: 10px;
