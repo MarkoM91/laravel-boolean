@@ -3162,7 +3162,7 @@ div.content div.master div.master-container div.master-left input {
 }
 
 div.content div.master div.master-container div.master-right img {
-  min-width: 650px;
+  width: 650px;
   min-height: 390px;
 }
 
@@ -3224,7 +3224,7 @@ div.content div.aula div.aula-container div.aula-left ul {
 }
 
 div.content div.aula div.aula-container div.aula-right img {
-  height: 500px;
+  min-height: 500px;
   width: 500px;
 }
 
