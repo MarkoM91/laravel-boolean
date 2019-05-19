@@ -26,21 +26,6 @@
               </div>
 
           </div>
-          <div class="hidden-header-rigth">
-              <div class="hidden-navbar">
-                  <ul>
-                      <li>Home</li>
-                      <li>Corso</li>
-                      <li>Metodo</li>
-                      <li id="corso">Dopo il Corso</li>
-                      <li>Faq</li>
-                      <li id="orange">Iscriviti</li>
-                  </ul>
-              </div>
-          </div>
-          <div class="hamburger-menù">
-              <i class="fa fa-bars"></i>
-          </div>
       </div>
       <div class="content">
           <div class="sviluppatore">
@@ -63,7 +48,6 @@
                 </div>
             </div>
         </div>
-
       </div>
       <div class="footer">
           <div class="footer-container">

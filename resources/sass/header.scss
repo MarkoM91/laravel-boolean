@@ -1,6 +1,6 @@
 div.header {
 
-    min-height: 80px;
+    height: 80px;
     @include flexHeader;
     color: $color1;
     padding-bottom: $trentapx;
@@ -17,8 +17,8 @@ div.header {
 
             width: 200px;
             height: 60px;
-          }
-      }
+        }
+    }
 
     .header-rigth{
 
@@ -39,8 +39,8 @@ div.header {
 
                     color: $color2;
                     border-bottom: 1px solid $color3;
-                 }
-             }
+                }
+            }
 
             #orange {
 
@@ -53,53 +53,14 @@ div.header {
                   color: $color1;
                   border: $none;
              }
-          }
+        }
 
         #corso {
 
-           margin-right: 0;
-           padding: $ventipx  0;
-           min-width: 120px;
-         }
+          margin-right: 0;
+          padding: $ventipx  0;
+          width: 120px;
+        }
       }
-
-    .hidden-header-rigth{
-
-        margin-right: $ventipx;
-        text-transform: uppercase;
-        position: relative;
-        display: $none;
-
-        div.hidden-navbar {
-
-          ul {
-
-            @include flexColumn;
-            list-style: none;
-            li {
-
-                padding: $ventipx;
-                margin: 10px;
-                list-style: none;
-             }
-           }
-         }
-     }
-
-    .hamburger-menù {
-
-       i.fa-bars {
-
-          display: none;
-          position: absolute;
-          top: 30px;
-          right:  50px;
-          font-size: 30px;
-         }
-     }
-
-    .active {
-
-      display: block;
-     }
+    }
 }
