@@ -2,9 +2,17 @@
 
   div.header {
 
-    div.header-rigth {
+  div.header-rigth {
 
-       
+    display: none;
+    }
+
+  div.hamburger-menù {
+
+      i {
+        font-size: 30px;
+        display: block;
+      }
     }
 
 }

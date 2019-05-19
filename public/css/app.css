@@ -3117,6 +3117,11 @@ div.header .header-rigth .navbar ul #corso {
   width: 120px;
 }
 
+div.header .hamburger-menù i {
+  font-size: 30px;
+  display: none;
+}
+
 div.content div.sviluppatore {
   list-style: none;
   display: flex;
@@ -3225,7 +3230,7 @@ div.content div.aula div.aula-container div.aula-left ul {
 
 div.content div.aula div.aula-container div.aula-right img {
   min-height: 500px;
-  width: 500px;
+  width: 400px;
 }
 
 div.footer {
@@ -3287,6 +3292,15 @@ div.footer .footer-container .footer-right span i {
 }
 
 @media all and (max-width: 768px) {
+  div.header div.header-rigth {
+    display: none;
+  }
+
+  div.header div.hamburger-menù i {
+    font-size: 30px;
+    display: block;
+  }
+
   div.content div.sviluppatore {
     display: flex;
     justify-content: center;

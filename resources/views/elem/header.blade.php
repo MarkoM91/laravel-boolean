@@ -15,5 +15,7 @@
                   </ul>
               </div>
           </div>
-          
+          <div class="hamburger-menù">
+              <i class="fa fa-bars"></i>
+          </div>
       </div>
