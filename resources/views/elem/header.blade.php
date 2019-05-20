@@ -26,6 +26,7 @@
                       <li>Iscriviti</li>
                   </ul>
               </div>
+              <div><i class="fa fa-times"></i></div>
           </div>
           <div class="hamburger-menù">
               <i class="fa fa-bars"></i>

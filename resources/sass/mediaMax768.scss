@@ -7,6 +7,20 @@
     display: $none;
     }
 
+    .hidden-header-rigth {
+      display: $none;
+      list-style: none;
+
+      .navbar {
+        ul {
+          list-style: none;
+          li {
+            list-style: none;
+          }
+        }
+      }
+    }  
+
   div.hamburger-menù {
 
       i {
