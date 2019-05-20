@@ -3120,12 +3120,13 @@ div.header .header-rigth .navbar ul #corso {
 div.header .hidden-header-rigth {
   display: none;
   display: flex;
+  list-style: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 100000vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -3133,15 +3134,9 @@ div.header .hidden-header-rigth {
   background-color: white;
 }
 
-div.header .hidden-header-rigth .navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-div.header .hidden-header-rigth .navbar .navbar ul li {
+div.header .hidden-header-rigth li {
   list-style: none;
+  padding: 30px;
 }
 
 div.header .hidden-header-rigth i.fa-times {

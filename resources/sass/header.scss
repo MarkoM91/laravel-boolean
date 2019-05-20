@@ -67,13 +67,14 @@ div.header {
     .hidden-header-rigth {
       display: $none;
       display: flex;
+      list-style: $none;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
       position: relative;
 
       min-width: 100vw;
-      min-height: 100vh;
+      min-height: 100000vh;
 
       position: absolute;
       top: 0;
@@ -82,17 +83,9 @@ div.header {
 
       background-color: white;
 
-      .navbar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .navbar ul {
-
-          li {
-            list-style: none;
-          }
-        }
+      li {
+        list-style: none;
+        padding: 30px;
       }
 
       i.fa-times {
