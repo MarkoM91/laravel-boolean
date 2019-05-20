@@ -3146,8 +3146,8 @@ div.header .hidden-header-rigth .navbar .navbar ul li {
 
 div.header .hidden-header-rigth i.fa-times {
   position: absolute;
-  top: 50px;
-  right: 0;
+  top: 25px;
+  right: 30px;
   font-size: 30px;
 }
 
