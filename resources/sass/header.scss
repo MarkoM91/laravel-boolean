@@ -86,9 +86,13 @@ div.header {
 
       li {
         list-style: none;
-        padding: 30px  30px 30px 30px;
+        padding: 30px  50px 30px 30px;
         font-size: 30px;
         text-align: center;
+
+        &:hover {
+          color: red;
+        }
       }
 
       i.fa-times {
