@@ -3535,7 +3535,7 @@ div.footer .footer-container .footer-right span i {
 
   div.content div.master div.master-container div.master-right img {
     height: 200px;
-    width: 400px;
+    width: 600px;
   }
 
   div.content div.aula {
@@ -3571,6 +3571,11 @@ div.footer .footer-container .footer-right span i {
 
   div.content div.aula div.aula-container div.aula-right {
     padding-bottom: 30px;
+  }
+
+  div.content div.aula div.aula-container div.aula-right .aula-right > img {
+    min-height: 500px;
+    width: 600px;
   }
 
   div.footer {

@@ -71,8 +71,8 @@
 
                     img {
 
-                      height: 200px;
-                      width: 400px;
+                      height:200px;
+                      width: 600px;
                     }
                 }
             }
@@ -107,6 +107,12 @@
                div.aula-right {
 
                   padding-bottom: $trentapx;
+
+                      .aula-right > img {
+
+                          min-height: 500px;
+                          width: 600px;
+                    }
                }
             }
           }
@@ -121,5 +127,5 @@
 
           @include flexColumn;
         }
-    }  
+    }
 }
