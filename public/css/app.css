@@ -3119,7 +3119,6 @@ div.header .header-rigth .navbar ul #corso {
 
 div.header .hidden-header-rigth {
   display: none;
-  display: flex;
   list-style: none;
   flex-direction: column;
   align-items: flex-start;
