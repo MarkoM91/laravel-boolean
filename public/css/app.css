@@ -3095,6 +3095,10 @@ div.header .header-rigth .navbar ul li {
   margin: 10px;
 }
 
+div.header .header-rigth .navbar ul li a[href="http://localhost/ver1"] {
+  text-decoration: none;
+}
+
 div.header .header-rigth .navbar ul li:hover {
   color: #F47637;
   border-bottom: 1px solid #61CE4E;
