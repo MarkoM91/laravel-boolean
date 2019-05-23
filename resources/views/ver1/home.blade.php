@@ -31,7 +31,7 @@
                   <ul>
                       <li>Home</li>
                       <li>Corso</li>
-                      <li>Metodo</li>
+                      <li><a href="{{ URL::route('ver1.index') }}">Metodo</a></li>
                       <li>Dopo il Corso</li>
                       <li>Faq</li>
                       <li>Iscriviti</li>

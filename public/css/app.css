@@ -3145,6 +3145,10 @@ div.header .hidden-header-rigth li {
   text-align: center;
 }
 
+div.header .hidden-header-rigth li a[href="http://localhost/ver1"] {
+  text-decoration: none;
+}
+
 div.header .hidden-header-rigth li:hover {
   color: red;
 }
