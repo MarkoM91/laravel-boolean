@@ -5,7 +5,7 @@
     display: $none;
     }
 
-    
+
 
   div.hamburger-menù {
 
@@ -14,4 +14,112 @@
         display: block;
       }
     }
+
+
+
+    div.content {
+
+        div.sviluppatore {
+
+            @include flexRow;
+            padding:  $cinquantapx;
+
+            div.sviluppatore-container {
+
+                h1 {
+                  padding-bottom:  $ventipx;
+                }
+
+                p {
+                  padding-bottom: $ventipx;
+                }
+
+                input {
+
+                  padding-bottom: $ventipx;
+                }
+            }
+        }
+
+        div.master {
+
+            div.master-container {
+
+                @include flexColumn;
+
+                div.master-left {
+
+                    margin-bottom: $cinquantapx;
+                    @include flexColumn;
+
+                    h1 {
+                      padding-bottom:  $cinquantapx;
+                    }
+
+                    p {
+                      padding-bottom: $cinquantapx;
+                    }
+
+                    input {
+
+                      margin-bottom:  $cinquantapx;
+                    }
+                }
+                div.master-right {
+
+                margin-bottom: $trentapx;
+
+                    img {
+
+                      height: 200px;
+                      width: 400px;
+                    }
+                }
+            }
+          }
+
+        div.aula {
+
+            padding: 0;
+
+            div.aula-container {
+
+                @include flexColumn;
+                padding: 75px 75px $ventipx 75px;
+
+                div.aula-left {
+
+                    padding-bottom: $cinquantapx;
+                    @include flexColumn;
+                    margin-left: $cinquantapx;
+
+                    h2 {
+
+                        padding-bottom:  $cinquantapx;
+                      }
+
+                    p {
+
+                      padding-bottom: $cinquantapx;
+                    }
+               }
+
+               div.aula-right {
+
+                  padding-bottom: $trentapx;
+               }
+            }
+          }
+    }
+
+    div.footer {
+
+        @include flexColumn;
+        padding: $cinquantapx;
+
+        div.footer-container {
+
+          @include flexColumn;
+        }
+    }  
 }
