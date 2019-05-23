@@ -71,8 +71,8 @@
 
                     img {
 
-                      height:200px;
-                      width: 600px;
+                      height:$master_img_height_tablet;
+                      width: $master_img_width_tablet;
                     }
                 }
             }
@@ -110,8 +110,8 @@
 
                       .aula-right > img {
 
-                          min-height: 500px;
-                          width: 600px;
+                          min-height: $aula_img_height
+                          width: $aula_img_width;
                     }
                }
             }

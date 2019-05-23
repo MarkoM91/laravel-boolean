@@ -11,6 +11,15 @@ $cinquantapx : 50px;
 $settantacinquepx : 75px;
 $none : none;
 
+$aula_img_height_smartphone : 500px;
+$aula_img_width_smartphone : 600px;
+$master_img_height_smartphone : 200px;
+$master_img_width_smartphone : 400px;
+$aula_img_height_tablet : 500px;
+$aula_img_width_tablet : 600px;
+$master_img_height_tablet : 200px;
+$master_img_width_tablet : 600px;
+
 @mixin flexHeader {
 
   display: flex;

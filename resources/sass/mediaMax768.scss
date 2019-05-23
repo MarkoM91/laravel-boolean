@@ -9,22 +9,22 @@
 
     .hidden-header-rigth {
       display: $none;
-      list-style: none;
+      list-style: $none;
 
       .navbar {
         ul {
-          list-style: none;
+          list-style: $none;
           li {
-            list-style: none;
+            list-style: $none;
           }
         }
       }
-    }  
+    }
 
   div.hamburger-menù {
 
       i {
-        font-size: 30px;
+        font-size: $trentapx;
         display: block;
       }
     }
@@ -89,8 +89,8 @@
 
                   img {
 
-                    height: 200px;
-                    width: 400px;
+                    height: $master_img_height_smartphone;
+                    width: $master_img_width_smartphone;
                   }
               }
           }

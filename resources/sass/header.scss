@@ -71,7 +71,7 @@ div.header {
       align-items: flex-start;
       justify-content: flex-start;
       position: relative;
-      padding-top: 20px;
+      padding-top: $ventipx;
 
       min-width: 100vw;
       min-height: 100000vh;
@@ -81,12 +81,12 @@ div.header {
       left: 0;
       z-index: 100;
 
-      background-color: white;
+      background-color: $color5;
 
       li {
         list-style: none;
-        padding: 30px  50px 30px 30px;
-        font-size: 30px;
+        padding: $trentapx  50px $trentapx $trentapx;
+        font-size: $trentapx;
         text-align: center;
 
         &:hover {
@@ -99,7 +99,7 @@ div.header {
         position: absolute;
         top: 25px;
         right: 35px;
-        font-size: 30px;
+        font-size: $trenta;
       }
 
     }
