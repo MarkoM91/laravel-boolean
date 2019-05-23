@@ -18,7 +18,7 @@
                   <ul>
                       <li>Home</li>
                       <li>Corso</li>
-                      <li>Metodo</li>
+                      <li><a href="{{ URL::route('ver1.index') }}">Metodo</a></li>
                       <li id="corso">Dopo il Corso</li>
                       <li>Faq</li>
                       <li id="orange">Iscriviti</li>

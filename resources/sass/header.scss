@@ -35,6 +35,11 @@ div.header {
                 padding: $ventipx;
                 margin: 10px;
 
+                a[href="http://localhost/ver1"] {
+
+                  text-decoration: none;
+                }
+
                 &:hover {
 
                     color: $color2;
@@ -53,6 +58,7 @@ div.header {
                   color: $color1;
                   border: $none;
              }
+
         }
 
         #corso {
@@ -99,7 +105,7 @@ div.header {
         position: absolute;
         top: 25px;
         right: 35px;
-        font-size: $trenta;
+        font-size: $trentapx;
       }
 
     }
