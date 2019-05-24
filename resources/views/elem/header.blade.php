@@ -8,7 +8,7 @@
                   <ul>
                       <li>Home</li>
                       <li>Corso</li>
-                      <li><a href="{{ URL::route('ver1.index') }}">Metodo</a></li>
+                      <li><a href="{{ route('ver1') }}">Metodo</a></li>
                       <li id="corso">Dopo il Corso</li>
                       <li>Faq</li>
                       <li id="orange">Iscriviti</li>
@@ -20,7 +20,7 @@
                   <ul>
                       <li>Home</li>
                       <li>Corso</li>
-                      <li><a href="{{ URL::route('ver1.index') }}">Metodo</a></li>
+                      <li><a href="{{ route('ver1') }}">Metodo</a></li>
                       <li>Dopo il Corso</li>
                       <li>Faq</li>
                       <li>Iscriviti</li>

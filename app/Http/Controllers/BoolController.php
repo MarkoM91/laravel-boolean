@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class BoolController extends Controller
 {
-    function index() {
+    function getHome() {
 
       return view('ver3.home');
     }
